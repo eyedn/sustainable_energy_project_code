@@ -1,5 +1,5 @@
-# Topic Proposed*
-## Description**
+# Topic Proposed
+## Description
 ### What are you planning to do? What’s the problem you want to solve?
 
 As the world leaves COVID-19 behind as an afterthought, a lingering crisis is, once again, brought to the forefront of global policy: the energy crisis. Worldwide, gas prices have skyrocketed due to international events such as the war in Ukraine and rising tensions in the Middle East, where countries source most of their oil. In the US alone, gas increased, on average, $1-$2, with highs of $7 in California. How can data science help alleviate these issues and combat the energy crisis? While data science does not explicitly create policy, data scientists guide policymakers in making decisions that will ease and possibly reverse the detrimental repercussions of overreliance on fossil fuels. As a group, we want to put ourselves in the roles of these data scientists and look at statistics and datasets on global energy use to see if we can make meaningful conclusions that could solve the relevant issues surrounding the energy crisis. For example, we can predict renewable energy usage or carbon emission by country to determine if those countries will meet quotas, or we can identify countries and regions with room for improvement or aid in their infrastructure to support transitions to renewable energy.
