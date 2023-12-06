@@ -31,13 +31,13 @@ We plan to utilize ChatGPT as a knowledge resource, complementing platforms like
 Because this is a comprehensive dataset rich with features and possibilities, each of our group members has decided that we will create and address individual problems, each with their own predictors and outcome labels, to solve. Thus, each group member will be responsible for going through the entire data science life cycle concerning their problem, making it a fair split as each person has a unique problem to work on, their features to preprocess, and their outcomes to visualize. The problems we will work on are:
 
 1. What will be the % renewable energy in total energy consumption in 2025 for a majority of countries? Which countries will have the highest? Lowest?
-**File:** `renewable_energy_prediction.ipynb`
+- **File:** `renewable_energy_prediction.ipynb`
 
 2. What factors relate to electricity usage determine a country’s CO2 Emissions?
-**File:** `CO2E_based_off_energy_consumption.ipynb`
+- **File:** `CO2E_based_off_energy_consumption.ipynb`
 
 3. What are the most import renewable energy related features in predicting economic output? How can we reduce economic uncertainty of renewable energy through modeling?
-**File:** `renewable_energy_economic_factors.ipynb`
+- **File:** `renewable_energy_economic_factors.ipynb`
 
 4. How can we identify if a country is trending toward High CO2 emissions and what factors heavily influence this behavior?
-**File:** `CO2E_Classification_Regression.ipynb`
+- **File:** `CO2E_Classification_Regression.ipynb`
