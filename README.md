@@ -28,13 +28,16 @@ We plan to utilize ChatGPT as a knowledge resource, complementing platforms like
 
 ### What is the estimated amount of work you have in mind? (e.g. how to split work, and why you believe you and your teammates can handle the workload)
 
-Because this is a comprehensive dataset rich with features and possibilities, each of our group members has decided that we will create and address individual problems, each with their own predictors and outcome labels, to solve. Thus, each group member will be responsible for going through the entire data science life cycle concerning their problem, making it a fair split as each person has a unique problem to work on, their features to preprocess, and their outcomes to visualize. By person, the problems we will work on are:
+Because this is a comprehensive dataset rich with features and possibilities, each of our group members has decided that we will create and address individual problems, each with their own predictors and outcome labels, to solve. Thus, each group member will be responsible for going through the entire data science life cycle concerning their problem, making it a fair split as each person has a unique problem to work on, their features to preprocess, and their outcomes to visualize. The problems we will work on are:
 
-Khoa will determine which countries will have the highest and lowest predicted low-carbon electricity (% electricity) by 2030. After finding these countries, Khoa will perform feature selection to see which features contribute best to predicting the low-carbon (% electricity) for those countries.
+1. What will be the % renewable energy in total energy consumption in 2025 for a majority of countries? Which countries will have the highest? Lowest?
+**File:** `renewable_energy_prediction.ipynb`
 
-Chancellor will first figure out what features best represent Value_co2_emissions_kt_by_country through the creation of a preliminary prediction model. Then to address the missing values, I will impute missing values with both the mean, median and row deletion and compare which model is a better representation of the true dataset. Afterwards, I will use this optimized model to predict which country emits the most carbon in 2100 and through this process, determine which features would help best reflect the prediction of the Value_co2_emissions_kt_by_country label.
+2. What factors relate to electricity usage determine a country’s CO2 Emissions?
+**File:** `CO2E_based_off_energy_consumption.ipynb`
 
-Arin will plot the countries on a world-heat map with the feature value_co2_emissions_kt_by_country in order to better visualize the data and localize future efforts towards renewable energy solutions. Furthermore, Arin will conduct necessary data preprocessing and exploratory data analysis to figure out which features best correlate to gdp growth. Such a study communicates an economic incentive for countries to switch to renewable sources. 
+3. What are the most import renewable energy related features in predicting economic output? How can we reduce economic uncertainty of renewable energy through modeling?
+**File:** `renewable_energy_economic_factors.ipynb`
 
-Aydin will study the temporal changes in Electricity from fossil fuels (TWh), 
-Electricity from nuclear (TWh), and Electricity from renewables (TWh) over time. Using these features, Aydin will determine if these features and creation of new features from these features can be used to predict the trajectory of countries over time in their energy usage preferences. Aydin will conduct necessary data preprocessing and exploratory data analysis as everyone else and generate a predictive model for future energy usage. 
+4. How can we identify if a country is trending toward High CO2 emissions and what factors heavily influence this behavior?
+**File:** `CO2E_Classification_Regression.ipynb`
